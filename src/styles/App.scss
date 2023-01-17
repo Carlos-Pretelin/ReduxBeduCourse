@@ -1,18 +1,6 @@
-*{
-    box-sizing: border-box;
-    margin: 0;	
-    padding: 0;
-}
-
-html{
-    font-size: 62.5%;
-    
-}
-
-
-
-.margen {
+#margen {
 	margin: 100px;
+	margin-top: 50px;
 }
 
 .tabla {
@@ -23,4 +11,19 @@ html{
 .tabla td {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+#menu {
+	background-color: #253A46;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#menu a {
+	color: white;
+	padding-right: 50px;
+}
+
+body {
+	margin: 0;
 }
